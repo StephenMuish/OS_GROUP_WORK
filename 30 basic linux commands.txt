@@ -1,0 +1,32 @@
+COMMAND          MEANING                                EXAMPLE                                                     
+ls              List files and directories              ls                                                           
+cd              Change directory                        cd <DIRECTORY_NAME>                                        
+pwd             Print working directory                 pwd                                                          
+mkdir           Make directory                          mkdir <NEW_DIRECTORY_NAME>                                          
+rmdir           Remove directory                        rmdir <DIRECTORY_NAME>                                    
+cp              Copy files and directories              cp <SOURCE_DIRECTORY_NAME> <TARGET_DIRECTORY_NAME>                                      
+mv              Move/rename files                       mv <OLD_FILE_NAME> <NEW_FILE_NAME>                            
+rm              Remove files                            rm <FILE_NAME>                                                 
+cat             Concatenate and display                 cat <FILE_NAME>                                                 
+more            View file content page-wise             more <FILE_NAME>                                                
+less            View file content                       less <FILE_NAME>                                                
+head            Display the first lines                 head <FILE_NAME>                                                
+tail            Display the last lines                  tail <FILE_NAME>                                                
+grep            Search for patterns                     grep pattern <FILE_NAME>                                        
+find            Search for files/directories            find <TARGET_DIR_PATH> -name filename                          
+chmod           Change file permissions                 chmod 755 <FILE_NAME>                                           
+chown           Change file owner                       chown user <FILE_NAME>                                          
+chgrp           Change group ownership                  chgrp group <FILE_NAME>                                         
+tar             Archive files                           tar -cvf archive.tar <FIRST_FILE_NAME> <SECOND_FILE_NAME>                     
+gzip            Compress files                          gzip <FILE_NAME>                                                
+gunzip          Decompress files                        gunzip <FILE_NAME>.gz                                           
+ping            Check network connectivity              ping google.com                                              
+ifconfig        Network interface details               ifconfig                                                     
+ssh             Secure shell                            ssh username@hostname                                        
+scp             Secure copy files                       scp <FILE_NAME> username@hostname:<TARGET_DIRECTORY_PATH>          
+wget            Download files from the web             wget http://example.com/<FILE_NAME>                             
+top             Display system processes                top                                                          
+ps              Display running processes               ps -ef                                                       
+kill            Terminate processes                     kill process_id                                              
+history         Command history                         history                                                      
+    
